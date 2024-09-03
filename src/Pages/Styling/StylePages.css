@@ -1,0 +1,52 @@
+.primary {
+    color: blue
+}
+
+.font-xl{
+    font-size: larger;
+}
+
+.center {
+    display: flex;
+    justify-content: center; /* Centers the element horizontally */
+    align-items: center; /* Centers the element vertically */
+    height: 100vh; /* Makes the container fill the entire height of the viewport */
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .label {
+    background-color: #28a745; /* Bootstrap's success color */
+    color: #343a40; /* Dark text color */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    background-color: #ffffff;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
